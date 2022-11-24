@@ -1,3 +1,8 @@
 @use './partials/vars' as *;
 
 @import 'node_modules/bootstrap/scss/bootstrap'
+;
+
+.debug {
+    background-color: rgba($color: blue, $alpha: .25);
+}

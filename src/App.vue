@@ -11,6 +11,7 @@ export default {
 
 
 
-<style>
-
+<style lang="scss">
+  @use './assets/styles/general.scss';
+  @use './assets/styles/partials/vars';
 </style>
