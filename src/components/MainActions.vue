@@ -1,6 +1,12 @@
 <script>
+
+import ActionsCard from './ActionsCard.vue';
+
 export default {
-  name: 'MainActions'
+  name: 'MainActions',
+  components:{
+    ActionsCard
+  }
 }
 </script>
 
@@ -22,7 +28,7 @@ export default {
                         <nav>
                             nav
                         </nav>
-                        card
+                        <ActionsCard />
                     </div>
                 </div>
             </div>
