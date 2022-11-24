@@ -9,7 +9,7 @@ export default {
   <footer>
     <div class="footer-top">
         <div class="container h-100">
-            <div class="row debug">
+            <div class="row h-100 d-flex align-items-center debug">
                 <div class="col debug">
                     <h4>
                         titolo piccolo
@@ -27,7 +27,7 @@ export default {
                         send
                     </button>
                 </div>
-                <div class="col-5">
+                <div class="col-5 debug">
                     <div class="text">
                         <h3>
                             Example
