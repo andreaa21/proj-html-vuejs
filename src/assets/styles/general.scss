@@ -1,13 +1,13 @@
 @use './partials/vars' as *;
 
-@import 'node_modules/bootstrap/scss/bootstrap'
-;
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import "node_modules/@fontsource/lato/400.css";
 
 .debug {
     background-color: rgba($color: blue, $alpha: .25);
     border: 1px solid red;
 }
 
-.red {
-    background-color: brown;
+body {
+    font-family: "Lato", sans-serif;
 }

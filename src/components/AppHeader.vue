@@ -9,14 +9,14 @@ export default {
   <header>
     <div class="container h-100">
         <div class="row debug header-content d-flex justify-content-between">
-            <div class="col-2 header-left debug">
+            <div class="col header-left debug">
                 hours
             </div>
-            <div class="col-3 header-right d-flex justify-content-between debug">
-                <div class="contacts">
+            <div class="col-lg-6 header-right d-flex justify-content-between debug">
+                <div class="contacts debug w-50">
                     contacts
                 </div>
-                <div class="socials">
+                <div class="socials debug w-50">
                     socials
                 </div>
             </div>
