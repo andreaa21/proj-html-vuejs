@@ -10,9 +10,7 @@ export default {
     }
   },
   methods:{
-    getImagePath(imageName){
-		const imageUrl = new URL (`../assets/img/${imageName}`, import.meta.url).href;
-    return imageUrl
+    getImagePath(num){
 	}
   }
 }
@@ -23,8 +21,8 @@ export default {
     <div
     v-for="(card,index) in store.actionCards"
     :key="index"
-    :style="`background-image: url(${card.action_bg})`"
-    class="col-4 d-flex debug flex-column justify-content-end action-card">
+    :style="`background-image: url(/${card.action_bg})`"
+    class="col-4 d-flex flex-column justify-content-end action-card">
       <div class="card-text text-center">
         <h2>
           {{card.action_text}}
@@ -37,10 +35,13 @@ export default {
 
 
 <style lang="scss" scoped>
+
+  .inner{
+    background-color: rgba(0, 0, 0, 0.418);
+  }
   .action-card{
     width: 360px;
     height: 360px;
-    // background-image: url(../assets/img/project-1.jpg);
     background-size: cover;
     border-radius: 20px;
     margin: .8rem;

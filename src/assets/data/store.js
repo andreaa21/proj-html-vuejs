@@ -137,27 +137,27 @@ export const store = reactive({
     actionCards: [
         {
             action_text: 'Academic professional program in social media',
-            action_bg: '../assets/img/project-1.jpg'
+            action_bg: 'project-1.jpg'
         },
         {
             action_text: "President'\s speech at the annual meeting",
-            action_bg: '../assets/img/project-2.jpg'
+            action_bg: 'project-2.jpg'
         },
         {
             action_text: 'International business trip in Shanghai',
-            action_bg: '../assets/img/project-3.jpg'
+            action_bg: 'project-3.jpg'
         },
         {
-            action_text: 'Technologz workshop with education theme',
-            action_bg: '../assets/img/project-4.jpg'
+            action_text: 'Technology workshop with education theme',
+            action_bg: 'project-4.jpg'
         },
         {
             action_text: 'Donation of clothes and food to the partner NGO',
-            action_bg: '../assets/img/project-5.jpg'
+            action_bg: 'project-5.jpg'
         },
         {
             action_text: 'Confraternization of the procurement team',
-            action_bg: '../assets/img/project-6.jpg'
+            action_bg: 'project-6.jpg'
         }
     ]
 });
