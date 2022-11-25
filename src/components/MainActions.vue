@@ -38,11 +38,11 @@ export default {
             </div>
             <div class="row nav-area text-center">
                 <nav>
-                    <ul class="d-flex justify-content-center">
+                    <ul class="d-flex flex-wrap justify-content-center">
                         <li
                         v-for="(link, index) in store.actionList"
                         :key="index"
-                        class="mx-3"
+                        class="mx-3 mt-3"
                         @click="getActive(index)"
                         ><a 
                         class="p-2"
@@ -64,7 +64,7 @@ export default {
     @use '../assets/styles/partials/vars' as *;
 
     .actions{
-        height: 1310px;
+        min-height: 1310px;
         background-color: $Woodsmoke;
         color: $White;
         .title-area{

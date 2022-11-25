@@ -25,7 +25,7 @@ export default {
     :key="index"
     :style="`background-image: url(${card.action_bg})`"
     class="col-4 d-flex debug flex-column justify-content-end action-card">
-      <div class="card-text text-center debug">
+      <div class="card-text text-center">
         <h2>
           {{card.action_text}}
         </h2>
