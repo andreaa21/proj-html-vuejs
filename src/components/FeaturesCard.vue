@@ -56,6 +56,7 @@ export default {
             border-radius: 50%;
             i{
                 transform: scale(1.5);
+                color: $Lagoon;
             }
         }
         h2{
