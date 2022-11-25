@@ -54,19 +54,23 @@ export default {
                     </div>
 
                     <div class="user d-flex align-items-center p-2 me-4">
-                        <i class="fa-regular fa-user"></i>
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
                     </div>
 
                     <FullBtn />
 
                 </div>
             </div>
-            <div class="row debug jumbo-bottom d-flex align-items-center">
-                <div class="jumbo-content debug">
-                    <h3>titolo piccolo</h3>
-                    <h2>titolo grande</h2>
+            <div class="row jumbo-bottom d-flex align-items-center">
+                <div class="jumbo-content py-3">
+                    <h3>
+                        {{store.jumboText.smallTitle}}
+                    </h3>
+                    <h2>
+                        {{store.jumboText.bigTitle}}
+                    </h2>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quidem architecto, pariatur omnis facere fuga debitis vel modi suscipit dolore. Obcaecati esse inventore molestiae porro magni repellat repudiandae nihil voluptatum!
+                        {{store.jumboText.par}}
                     </p>
                     <div class="btn-area">
                         <FullBtn />
@@ -83,6 +87,8 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/vars' as *;
+
+
     .jumbotron{
         min-height: 860px;
         background-image: url('../assets/img/bg-4.jpg');
@@ -103,11 +109,19 @@ export default {
                     color: $White;
                     text-decoration: none;
                     text-transform: uppercase;
-                    font-weight: 600;
+                    font-weight: 700;
                     font-size: 1.1rem;
+                    &:hover{
+                        text-decoration: underline;
+                    }
                     &.active{
                         color: $Eim;
                     }
+                }
+            }
+            .user{
+                a{
+                    color: $White;
                 }
             }
         }
@@ -117,6 +131,24 @@ export default {
             .jumbo-content{
                 width: 50%;
                 height: 70%;
+                h3{
+                    text-transform: uppercase;
+                    color: $Eim;
+                    font-size: .9rem;
+                    font-weight: bold;
+                }
+                h2{
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    font-size: 4.5rem;
+                }
+                p{
+                    color: $Silver;
+                    font-size: 1.5rem;
+                }
+                .btn-area{
+                    margin-top: 3rem;
+                }
             }
         }
     }

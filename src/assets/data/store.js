@@ -30,5 +30,10 @@ export const store = reactive({
             href: '#',
             isActive: false
         },
-    ]
+    ],
+    jumboText: {
+        smallTitle: 'human resources',
+        bigTitle: 'get more productivity',
+        par: 'Planning, recruitment and selection process and performance evaluation of employees.'
+    }
 });
