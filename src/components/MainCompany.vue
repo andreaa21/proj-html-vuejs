@@ -1,6 +1,7 @@
 <script>
 
-import {store} from '../assets/data/store'
+import {store} from '../assets/data/store';
+import Mini_Card from './Mini_Card.vue';
 import FullBtn from './FullBtn.vue';
 import OutlineBtn from './OutlineBtn.vue';
 
@@ -15,7 +16,8 @@ export default {
   },
   components:{
     FullBtn,
-    OutlineBtn
+    OutlineBtn,
+    Mini_Card
   }
 }
 </script>
@@ -24,14 +26,13 @@ export default {
 <template>
     <div class="company">
         <div class="background h-100">
-
         </div>
-        <div class="container h-100 debug d-flex flex-column justify-content-center">
+        <div class="container h-100 d-flex flex-column justify-content-center px-5">
 
-            <div class="row w-50 debug">
+            <div class="row w-50">
                 <div class="col d-flex flex-column justify-content-center">
 
-                    <div class="text-area">
+                    <div class="text-area mb-3">
                         <h4>
                         {{store.MainCompanyText.mcSmallTitle}}
                         </h4>
@@ -46,44 +47,16 @@ export default {
                 </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-lg-3 w-50 mini_card-area debug d-flex debug">
-
-                         <div class="mini_card col debug">
-                             <span>
-                                 0
-                             </span>
-                             <h3>
-                                 Titolo
-                             </h3>
-                             <p>Lorem ipsum dolor sit amet consectetur.</p>
-                         </div>
-                         <div class="mini_card col debug">
-                             <span>
-                                 0
-                             </span>
-                             <h3>
-                                 Titolo
-                             </h3>
-                             <p>Lorem ipsum dolor sit amet consectetur.</p>
-                         </div>
-                         <div class="mini_card col debug">
-                             <span>
-                                 0
-                             </span>
-                             <h3>
-                                 Titolo
-                             </h3>
-                             <p>Lorem ipsum dolor sit amet consectetur.</p>
-                         </div>
-
+            <div class="row row-cols-1 row-cols-lg-3 w-50 mini_card-area my-3 d-flex">
+                <Mini_Card />
             </div>
 
-            <div class="row w-50 debug">
+            <div class="row w-50">
                 <div class="col d-flex flex-column justify-content-center">
 
-                    <div class="button-area">
+                    <div class="button-area mt-5">
                         <FullBtn />
-                        <OutlineBtn />
+                        <OutlineBtn class="text-color"/>
                     </div>
 
                 </div>
@@ -107,6 +80,8 @@ export default {
 
 
 <style lang="scss" scoped>
+
+@use '../assets/styles/partials/vars' as *;
     .company{
         height: 765px;
         position: relative;
@@ -117,6 +92,29 @@ export default {
             background-image: url(../assets/img/about-5.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+        }
+        .text-area{
+            h4{
+                color: $Eim;
+                text-transform: uppercase;
+                font-size: .9rem;
+                font-weight: 900;
+            }
+            h2{
+                font-size: 3.5rem;
+                text-transform: capitalize;
+                font-weight: 900;
+                color: $Ebony;
+            }
+            p{
+                color: $Ebony;
+                font-size: 1.1rem;
+            }
+        }
+
+        .text-color{
+            color: $Eim;
+            // rifare i bottoni
         }
 
     }

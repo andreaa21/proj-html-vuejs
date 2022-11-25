@@ -69,8 +69,25 @@ export const store = reactive({
     MainCompanyText: {
         mcSmallTitle: 'about the network',
         mcBigTitle: 'the company',
-        mcPar: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, possimus!'
-    }
+        mcPar: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, possimus! consectetur adipisicing elit. Facere, possimus!'
+    },
+    Mini_Cards: [
+        {
+            mini_number: '0',
+            mini_title: 'employees',
+            mini_text: 'Lorem ipsum, dolor sit amet'
+        },
+        {
+            mini_number: '0',
+            mini_title: 'Partners',
+            mini_text: 'Lorem ipsum, dolor sit amet'
+        },
+        {
+            mini_number: '0',
+            mini_title: 'Customers',
+            mini_text: 'Lorem ipsum, dolor sit amet'
+        }
+    ]
 });
 
 
