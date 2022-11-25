@@ -1,13 +1,24 @@
 <script>
+
+import {store} from '../assets/data/store'
+
 export default {
-  name: 'MainCompany'
+  name: 'MainCompany',
+  data(){
+    return{
+        store
+    }
+  }
 }
 </script>
 
 
 <template>
-    <div class="company">
-        <div class="container debug h-100">
+    <div class="company debug">
+        <div class="background h-100">
+
+        </div>
+        <div class="container h-100">
             <div class="row h-100">
                 <div class="col-6 d-flex flex-column justify-content-center debug">
                     <div class="text-area debug">
@@ -71,10 +82,15 @@ export default {
 <style lang="scss" scoped>
     .company{
         height: 765px;
-        background-image: url(../assets/img/about-5.jpg);
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: 50%;
+        position: relative;
+        .background{
+            width: 50%;
+            position: absolute;
+            right: 0;
+            background-image: url(../assets/img/about-5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
     }
 </style>
