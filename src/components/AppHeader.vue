@@ -74,7 +74,7 @@ export default {
         }
         ul{
             list-style: none;
-            margin-left: -1.5rem;
+            margin-left: -2rem;
             a{
                 color: $Nurse;
             }

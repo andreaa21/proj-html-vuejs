@@ -1,6 +1,15 @@
 <script>
+
+import FullBtn from './FullBtn.vue';
+import OutlineBtn from './OutlineBtn.vue'
+
+
 export default {
-  name: 'AppJumbo'
+  name: 'AppJumbo',
+  components:{
+    FullBtn,
+    OutlineBtn
+  }
 }
 </script>
 
@@ -17,7 +26,7 @@ export default {
                 </div>
                 <div class="col">
                     <div class="jumbo-options d-flex debug">
-                        <nav>
+                        <nav class="debug w-75 d-flex align-items-center">
                             nav
                         </nav>
                         <button>
@@ -34,12 +43,8 @@ export default {
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quidem architecto, pariatur omnis facere fuga debitis vel modi suscipit dolore. Obcaecati esse inventore molestiae porro magni repellat repudiandae nihil voluptatum!
                     </p>
                     <div class="btn-area">
-                        <button>
-                            get in touch
-                        </button>
-                        <button>
-                            read more
-                        </button>
+                        <FullBtn />
+                        <OutlineBtn />
                     </div>
                 </div>
             </div>
