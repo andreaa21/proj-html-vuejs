@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="btn x-btn px-3">
+  <div class="btn x-btn px-3 py-2">
     read more
   </div>
 </template>
