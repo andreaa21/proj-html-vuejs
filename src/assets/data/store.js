@@ -61,7 +61,16 @@ export const store = reactive({
             cardTitle: 'performance',
             cardText: "Achieving maximum impact and value from investments in finance and supply chain."
         }
-    ]
+    ],
+
+
+    // MainCompany
+
+    MainCompanyText: {
+        mcSmallTitle: 'about the network',
+        mcBigTitle: 'the company',
+        mcPar: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, possimus!'
+    }
 });
 
 

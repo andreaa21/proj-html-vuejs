@@ -15,7 +15,7 @@ export default {
 <template>
   <div class="features-card">
     <div class="icon">
-        
+
     </div>
     <div class="title">
 
@@ -25,6 +25,7 @@ export default {
     </div>
   </div>
 </template>
+
 
 
 
