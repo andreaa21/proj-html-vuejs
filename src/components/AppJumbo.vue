@@ -62,6 +62,7 @@ export default {
                 </div>
             </div>
             <div class="row jumbo-bottom d-flex align-items-center">
+
                 <div class="jumbo-content py-3">
                     <h3>
                         {{store.jumboText.smallTitle}}
@@ -77,6 +78,7 @@ export default {
                         <OutlineBtn />
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -144,7 +146,7 @@ export default {
                 }
                 p{
                     color: $Silver;
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                 }
                 .btn-area{
                     margin-top: 3rem;
