@@ -13,8 +13,8 @@ export default {
 
 <template>
     <div class="features d-flex align-items-center">
-        <div class="container debug">
-            <div class="row debug row-cols-1 row-cols-lg-2 row-cols-xl-3 d-flex justify-content-center">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 d-flex justify-content-center">
                 <FeaturesCard />
             </div>
         </div>

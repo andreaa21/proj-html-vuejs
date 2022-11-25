@@ -45,19 +45,19 @@ export const store = reactive({
     cards: [
         {
 
-            icon: 'icona',
+            icon: 'user-group',
             cardTitle: 'human capital',
             cardText: "Humanizing business: Harness the power of technology to improve the way way people work.",
         },
         {
 
-            icon: 'icona',
+            icon: 'pie-chart',
             cardTitle: 'core business',
             cardText: "It takes innovative approaches to transform, modernize, and run existing platforms.",
         },
         {
 
-            icon: 'icona',
+            icon: 'gauge-high',
             cardTitle: 'performance',
             cardText: "Achieving maximum impact and value from investments in finance and supply chain."
         }

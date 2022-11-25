@@ -78,7 +78,7 @@ export default {
                         <OutlineBtn />
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
