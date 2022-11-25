@@ -27,7 +27,7 @@ export default {
     <div class="company">
         <div class="background h-100">
         </div>
-        <div class="container h-100 d-flex flex-column justify-content-center px-5">
+        <div class="container h-100 d-flex flex-column justify-content-center p-5">
 
             <div class="row w-50">
                 <div class="col d-flex flex-column justify-content-center">
@@ -83,7 +83,7 @@ export default {
 
 @use '../assets/styles/partials/vars' as *;
     .company{
-        height: 765px;
+        min-height: 765px;
         position: relative;
         .background{
             width: 50%;
@@ -101,10 +101,11 @@ export default {
                 font-weight: 900;
             }
             h2{
-                font-size: 3.5rem;
+                font-size: 3rem;
                 text-transform: capitalize;
                 font-weight: 900;
                 color: $Ebony;
+                margin-top: 1rem;
             }
             p{
                 color: $Ebony;

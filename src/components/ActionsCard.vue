@@ -6,7 +6,9 @@ export default {
 
 
 <template>
-    ActionsCard
+    <div class="col">
+      ActionsCard
+    </div>
 </template>
 
 

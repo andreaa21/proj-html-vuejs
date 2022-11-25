@@ -39,7 +39,8 @@ export default {
     .mini_card{
         span{
             color: $Eim;
-            font-size: 2rem;
+            font-size: 2.5rem;
+            font-weight: 900;
             padding-left: 1rem;
         }
         h3{
