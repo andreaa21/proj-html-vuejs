@@ -87,6 +87,78 @@ export const store = reactive({
             mini_title: 'Customers',
             mini_text: 'Lorem ipsum, dolor sit amet'
         }
+    ],
+
+    // MainActions
+
+    actionText: {
+        actionSmallTitle: 'we do more for everyone',
+        actionBigTitle: 'actions & projects'
+    },
+
+    actionList: [
+        {
+            text: 'all',
+            href: '#',
+            isActive: true
+        },
+        {
+            text: 'institutional',
+            href: '#',
+            isActive: false
+        },
+        {
+            text: 'social',
+            href: '#',
+            isActive: false
+        },
+        {
+            text: 'events',
+            href: '#',
+            isActive: false
+        },
+        {
+            text: 'innovation',
+            href: '#',
+            isActive: false
+        },
+        {
+            text: 'environment',
+            href: '#',
+            isActive: false
+        },
+        {
+            text: 'technology',
+            href: '#',
+            isActive: false
+        }
+    ],
+
+    actionCards: [
+        {
+            action_text: 'Academic professional program in social media',
+            action_bg: '../assets/img/project-1.jpg'
+        },
+        {
+            action_text: "President'\s speech at the annual meeting",
+            action_bg: '../assets/img/project-2.jpg'
+        },
+        {
+            action_text: 'International business trip in Shanghai',
+            action_bg: '../assets/img/project-3.jpg'
+        },
+        {
+            action_text: 'Technologz workshop with education theme',
+            action_bg: '../assets/img/project-4.jpg'
+        },
+        {
+            action_text: 'Donation of clothes and food to the partner NGO',
+            action_bg: '../assets/img/project-5.jpg'
+        },
+        {
+            action_text: 'Confraternization of the procurement team',
+            action_bg: '../assets/img/project-6.jpg'
+        }
     ]
 });
 
