@@ -26,7 +26,7 @@ export default {
         <div class="background h-100">
 
         </div>
-        <div class="container h-100 debug">
+        <div class="container h-100 debug d-flex flex-column justify-content-center">
 
             <div class="row w-50 debug">
                 <div class="col d-flex flex-column justify-content-center">
@@ -46,11 +46,9 @@ export default {
                 </div>
             </div>
 
-            <div class="row w-50 debug">
-                <div class="col d-flex flex-column justify-content-center">
+            <div class="row row-cols-1 row-cols-lg-3 w-50 mini_card-area debug d-flex debug">
 
-                    <div class="mini_card-area debug d-flex align-items-center">
-                         <div class="mini_card debug">
+                         <div class="mini_card col debug">
                              <span>
                                  0
                              </span>
@@ -59,7 +57,7 @@ export default {
                              </h3>
                              <p>Lorem ipsum dolor sit amet consectetur.</p>
                          </div>
-                         <div class="mini_card debug">
+                         <div class="mini_card col debug">
                              <span>
                                  0
                              </span>
@@ -68,7 +66,7 @@ export default {
                              </h3>
                              <p>Lorem ipsum dolor sit amet consectetur.</p>
                          </div>
-                         <div class="mini_card debug">
+                         <div class="mini_card col debug">
                              <span>
                                  0
                              </span>
@@ -77,9 +75,7 @@ export default {
                              </h3>
                              <p>Lorem ipsum dolor sit amet consectetur.</p>
                          </div>
-                    </div>
 
-                </div>
             </div>
 
             <div class="row w-50 debug">

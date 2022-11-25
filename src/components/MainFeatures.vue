@@ -13,23 +13,9 @@ export default {
 
 <template>
     <div class="features d-flex align-items-center">
-        <div class="container h-100">
-            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 d-flex justify-content-center h-100">
-                <div class="col d-flex justify-content-center">
-                    <div class="feature-card p-3">
-                        <FeaturesCard />
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="feature-card p-3">
-                        <FeaturesCard />
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="feature-card p-3">
-                        <FeaturesCard />
-                    </div>
-                </div>
+        <div class="container debug">
+            <div class="row debug row-cols-1 row-cols-lg-2 row-cols-xl-3 d-flex justify-content-center">
+                <FeaturesCard />
             </div>
         </div>
     </div>
@@ -43,7 +29,7 @@ export default {
     .features{
         background-color: $Nurse;
         min-height: 600px;
-        .feature-card{
+        .feature-cards{
             height: 300px;
             width: 300px;
             margin: 1rem;

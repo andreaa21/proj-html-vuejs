@@ -13,15 +13,19 @@ export default {
 </script>
 
 <template>
-  <div class="features-card">
-    <div class="icon">
+  <div
+  v-for="(card, index) in store.cards"
+  :key="index"
+  class="features-card col debug">
 
+    <div class="icon">
+        {{card.icon}}
     </div>
     <div class="title">
-
+        {{card.cardTitle}}
     </div>
     <div class="text">
-
+        {{card.cardText}}
     </div>
   </div>
 </template>
@@ -34,6 +38,7 @@ export default {
 
     .features-card{
         background-color: $White;
-        height: 100%;
+        height: 300px;
+        width: 300px;
     }
 </style>
