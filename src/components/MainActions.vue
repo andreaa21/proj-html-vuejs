@@ -93,6 +93,7 @@ export default {
                     color: $Nurse;
                     text-transform: uppercase;
                     font-size: 1.1rem;
+                    &:hover,
                     &.active{
                         background-color: $Ebony;
                         border-radius: 5px;

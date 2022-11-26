@@ -13,8 +13,9 @@ export default {
 
 <template>
   <div class="features h-100">
-    <div class="x-container h-25 d-flex justify-content-between">
-      <ProcessItem />
+    <div class="x-container d-flex justify-content-between">
+
+        <ProcessItem />
     </div>
   </div>
 </template>

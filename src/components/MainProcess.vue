@@ -15,7 +15,7 @@ export default {
 
 <template>
     <div class="process">
-        <div class="container h-50 d-flex justify-content-center align-items-center">
+        <div class="container x-container d-flex justify-content-center align-items-center">
             <div class="row">
                 <TextArea
                 bigTitle="process management"
@@ -35,6 +35,9 @@ export default {
 
 <style lang="scss" scoped>
     .process{
-        height: 720px;
+        min-height: 720px;
+        .x-container{
+            height: 360px;
+        }
     }
 </style>

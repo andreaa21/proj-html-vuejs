@@ -17,7 +17,7 @@ export default {
    <div
    v-for="(item, index) in store.ProcessItems"
    :key="index"
-   class="process-item text-center px-3">
+   class="process-item col text-center px-3">
     
         <div class="number">
             <span>
