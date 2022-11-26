@@ -159,6 +159,34 @@ export const store = reactive({
             action_text: 'Confraternization of the procurement team',
             action_bg: 'project-6.jpg'
         }
+    ],
+
+
+    // MainFeedback
+
+    FeedbackText: {
+        FeedbackSmallTitle: 'customer testimonials',
+        FeedbackBigTitle: 'trusted feedback',
+        FeedbackPar: 'We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.'
+
+    },
+
+    FeedbackCards: [
+        {
+            img: 'logo-1.png',
+            longText: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto eligendi quo voluptatem distinctio unde est! Tenetur, illo.',
+            shortText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
+        {
+            img: 'logo-2.png',
+            longText: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto eligendi quo voluptatem distinctio unde est! Tenetur, illo.',
+            shortText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
+        {
+            img: 'logo-3.png',
+            longText: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto eligendi quo voluptatem distinctio unde est! Tenetur, illo.',
+            shortText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        }
     ]
 });
 

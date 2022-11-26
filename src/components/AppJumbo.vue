@@ -27,7 +27,7 @@ export default {
 <template>
   <div class="jumbotron">
     <div class="inner">
-        <div class="container">
+        <div class="container p-3 debug">
             <div class="row d-flex justify-content-between align-items-center jumbo-top">
                 <div class="col-3">
 
@@ -136,7 +136,7 @@ export default {
                 h3{
                     text-transform: uppercase;
                     color: $Eim;
-                    font-size: .9rem;
+                    font-size: 1.1rem;
                     font-weight: bold;
                 }
                 h2{
