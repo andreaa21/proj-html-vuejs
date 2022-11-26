@@ -164,13 +164,6 @@ export const store = reactive({
 
     // MainFeedback
 
-    FeedbackText: {
-        FeedbackSmallTitle: 'customer testimonials',
-        FeedbackBigTitle: 'trusted feedback',
-        FeedbackPar: 'We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.'
-
-    },
-
     FeedbackCards: [
         {
             img: 'logo-1.png',

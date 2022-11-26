@@ -1,7 +1,8 @@
 <script>
 
 import {store} from '../assets/data/store';
-import FeedbackCard from './FeedbackCard.vue'
+import FeedbackCard from './FeedbackCard.vue';
+import TextArea from './TextArea.vue';
 
 export default {
   name: 'MainFeedback',
@@ -11,7 +12,8 @@ export default {
     }
   },
   components:{
-    FeedbackCard
+    FeedbackCard,
+    TextArea
   }
 }
 </script>
@@ -22,17 +24,11 @@ export default {
     <div class="container h-100">
         <div class="row d-flex h-50 align-items-end text-center p-4">
             <div class="col d-flex justify-content-center">
-                <div class="text-area w-75">
-                    <h4>
-                        {{store.FeedbackText.FeedbackSmallTitle}}
-                    </h4>
-                    <h2>
-                        {{store.FeedbackText.FeedbackBigTitle}}
-                    </h2>
-                    <p>
-                        {{store.FeedbackText.FeedbackPar}}
-                    </p>
-                </div>
+                <TextArea
+                bigTitle="trusted feedback"
+                smallTitle="customer testimonials"
+                smallText="We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition."
+                />
 
             </div>
         </div>

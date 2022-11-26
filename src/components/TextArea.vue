@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <div class="col debug">
+    <div class="col">
        <h4>
            {{smallTitle}}
        </h4>
