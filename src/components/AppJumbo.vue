@@ -57,7 +57,9 @@ export default {
                         <a href="#"><i class="fa-regular fa-user"></i></a>
                     </div>
 
-                    <FullBtn />
+                    <FullBtn
+                    btnText="get in touch"
+                    />
 
                 </div>
             </div>
@@ -74,8 +76,12 @@ export default {
                         {{store.jumboText.par}}
                     </p>
                     <div class="btn-area">
-                        <FullBtn />
-                        <OutlineBtn />
+                        <FullBtn
+                        btnText="get in touch"
+                        />
+                        <OutlineBtn
+                        btnText="read more"
+                        />
                     </div>
                 </div>
 

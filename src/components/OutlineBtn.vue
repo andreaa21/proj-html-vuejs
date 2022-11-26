@@ -1,12 +1,17 @@
 <script>
 export default {
-    name: 'OutlineBtn'
+    name: 'OutlineBtn',
+    props:{
+      btnText: String
+    }
 }
 </script>
 
 <template>
   <div class="btn x-btn px-3 py-2 ms-3 mt-3">
-    read more
+    <span>
+      {{btnText}}
+    </span>
   </div>
 </template>
 

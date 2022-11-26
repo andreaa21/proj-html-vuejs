@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <div class="col">
+    <div class="col-12">
        <h4>
            {{smallTitle}}
        </h4>
@@ -51,7 +51,7 @@ export default {
     }
     p{
         font-size: 1.1rem;
-        color: $Shuttle;
+        color: $Silver;
     }
 
 </style>

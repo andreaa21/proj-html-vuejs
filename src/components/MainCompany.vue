@@ -46,8 +46,13 @@ export default {
                 <div class="col d-flex flex-column justify-content-center">
 
                     <div class="button-area mt-5">
-                        <FullBtn />
-                        <OutlineBtn class="text-color"/>
+                        <FullBtn
+                        btnText="get in touch"
+                        />
+                        <OutlineBtn
+                        btnText="read more"
+                        class="text-color"
+                        />
                     </div>
 
                 </div>

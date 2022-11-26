@@ -1,10 +1,11 @@
 import { reactive } from 'vue';
 
 export const store = reactive({
-    // Header
+    // Info
     openHours: 'Mon-Sat-9:00-18:00',
     phoneNumber: '+39 123456775',
     email: 'hello@example.com',
+    address: 'Main Avenue, 987',
 
     // Jumbotron
     jumboOptions: [
@@ -65,6 +66,7 @@ export const store = reactive({
 
 
     // MainCompany
+
     Mini_Cards: [
         {
             mini_number: '0',
