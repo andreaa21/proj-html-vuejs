@@ -65,12 +65,6 @@ export const store = reactive({
 
 
     // MainCompany
-
-    MainCompanyText: {
-        mcSmallTitle: 'about the network',
-        mcBigTitle: 'the company',
-        mcPar: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, possimus! consectetur adipisicing elit. Facere, possimus!'
-    },
     Mini_Cards: [
         {
             mini_number: '0',

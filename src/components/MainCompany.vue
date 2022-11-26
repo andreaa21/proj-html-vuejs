@@ -4,7 +4,7 @@ import {store} from '../assets/data/store';
 import Mini_Card from './Mini_Card.vue';
 import FullBtn from './FullBtn.vue';
 import OutlineBtn from './OutlineBtn.vue';
-
+import TextArea from './TextArea.vue';
 
 
 export default {
@@ -17,7 +17,8 @@ export default {
   components:{
     FullBtn,
     OutlineBtn,
-    Mini_Card
+    Mini_Card,
+    TextArea
   }
 }
 </script>
@@ -30,21 +31,11 @@ export default {
         <div class="container h-100 d-flex flex-column justify-content-center p-5">
 
             <div class="row w-50">
-                <div class="col d-flex flex-column justify-content-center">
-
-                    <div class="text-area mb-3">
-                        <h4>
-                        {{store.MainCompanyText.mcSmallTitle}}
-                        </h4>
-                        <h2>
-                            {{store.MainCompanyText.mcBigTitle}}
-                        </h2>
-                        <p>
-                           {{store.MainCompanyText.mcPar}}
-                        </p>
-                    </div>
-
-                </div>
+                <TextArea
+                bigTitle="the company"
+                smallTitle="about the network"
+                smallText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, possimus! consectetur adipisicing elit. Facere, possimus!"
+                />
             </div>
 
             <div class="row row-cols-1 row-cols-lg-3 w-50 mini_card-area my-3 d-flex">
