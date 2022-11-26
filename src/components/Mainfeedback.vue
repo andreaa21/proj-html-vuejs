@@ -53,22 +53,7 @@ export default {
         min-height: 775px;
         background-color: $Nurse;
         .text-area{
-            h4{
-                text-transform: uppercase;
-                color: $Eim;
-                font-weight: 900;
-                font-size: .9rem;
-            }
-            h2{
-                text-transform: capitalize;
-                font-size: 3rem;
-                font-weight: 900;
-                margin-bottom: 1.5rem;
-            }
-            p{
-                font-size: 1.1rem;
-                color: $Shuttle;
-            }
+
         }
     }
 </style>
