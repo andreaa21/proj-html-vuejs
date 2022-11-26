@@ -1,6 +1,12 @@
 <script>
+
+import TextArea from './TextArea.vue';
+
 export default {
-  name: 'AppFooter'
+  name: 'AppFooter',
+  components:{
+    TextArea
+  }
 }
 </script>
 
@@ -10,23 +16,18 @@ export default {
     <div class="footer-top">
         <div class="container h-100">
             <div class="row h-100 d-flex align-items-center debug">
-                <div class="col debug">
-                    <h4>
-                        titolo piccolo
-                    </h4>
-                    <h2>
-                        titolo grande
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing.
-                    </p>
-                    <div class="form">
+                <TextArea
+                bigTitle="get in touch"
+                smallTitle="send a message"
+                smallText="We will respond to your message as soon as possible"
+                />
+                    <!-- <div class="form">
                         form
                     </div>
                     <button>
                         send
-                    </button>
-                </div>
+                    </button> -->
+
                 <div class="col-5 debug">
                     <div class="text">
                         <h3>
