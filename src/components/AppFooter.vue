@@ -141,7 +141,7 @@ export default {
                         margin-bottom: 1rem;
                     }
                     p{
-                        color: $Silver;
+                        color: $Shuttle;
                         font-size: 1.2rem;
                     }
                 }

@@ -51,7 +51,7 @@ export default {
     }
     p{
         font-size: 1.1rem;
-        color: $Silver;
+        color: $Shuttle;
     }
 
 </style>

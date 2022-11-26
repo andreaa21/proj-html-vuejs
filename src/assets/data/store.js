@@ -176,6 +176,37 @@ export const store = reactive({
             longText: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto eligendi quo voluptatem distinctio unde est! Tenetur, illo.',
             shortText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         }
+    ],
+
+
+    // FeatureItem
+
+    ProcessItems: [
+        {
+            F_number: '01',
+            F_Title: 'Collection of information',
+            F_text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
+        {
+            F_number: '02',
+            F_Title: 'Strategic planning',
+            F_text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
+        {
+            F_number: '03',
+            F_Title: 'Assignement of responsibilities',
+            F_text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
+        {
+            F_number: '04',
+            F_Title: 'Formatting process',
+            F_text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
+        {
+            F_number: '05',
+            F_Title: 'Continuity formalization',
+            F_text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+        },
     ]
 });
 
