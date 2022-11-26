@@ -27,7 +27,7 @@ export default {
 <template>
   <div class="jumbotron">
     <div class="inner">
-        <div class="container p-3 debug">
+        <div class="container p-3">
             <div class="row d-flex justify-content-between align-items-center jumbo-top">
                 <div class="col-3">
 

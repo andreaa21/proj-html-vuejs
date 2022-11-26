@@ -21,7 +21,7 @@ export default {
   <div
   v-for="(card, index) in store.cards"
   :key="index"
-  class="features-card col d-flex flex-column justify-content-around m-3 py-3">
+  class="features-card col d-flex flex-column justify-content-around m-3">
 
     <div class="icon d-flex justify-content-center align-items-center">
         <i :class="getIcons(card.icon)"></i>
@@ -47,8 +47,10 @@ export default {
 
     .features-card{
         background-color: $White;
-        height: 300px;
-        width: 300px;
+        height: 310px;
+        width: 350px;
+        border-radius: 10px;
+        padding: 40px;
         .icon{
             background-color: $TransparentFountain;
             width: 60px;
@@ -60,13 +62,15 @@ export default {
             }
         }
         h2{
-            color: $Woodsmoke;
+            color: $Abbey;
             font-size: 1.5rem;
             font-weight: 700;
             text-transform: capitalize;
+            padding-top: 1.5rem;
         }
         p{
-            color: $Ebony;
+            padding-top: 1rem;
+            color: $Abbey;
             font-size: 1.13rem;
         }
     }
