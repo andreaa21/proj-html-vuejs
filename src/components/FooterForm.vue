@@ -47,9 +47,11 @@ export default {
 }
 textarea{
     height: 200px;
+    border: none;
 }
 input{
     height: 50px;
+    border: none;
 }
 
 </style>
