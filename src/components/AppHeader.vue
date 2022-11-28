@@ -39,14 +39,14 @@ export default {
                         <i class="fa-solid fa-phone"></i>
                         <span class="ms-2">{{store.phoneNumber}}</span>
                     </div>
-                    <div class="email py-2">
+                    <div class="email ms-3 py-2">
                         <i class="fa-solid fa-envelope"></i>
                         <span class="ms-2">{{store.email}}</span>
                     </div>
                 </div>
-                <div class="socials d-none d-xl-flex justify-content-end py-2">
+                <div class="socials d-none d-xl-flex justify-content-center">
                     <ul class="d-flex justify-content-evenly h-100 align-items-center">
-                        <li class="mx-3">
+                        <li class="me-3">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </li>
                         <li class="mx-3">
