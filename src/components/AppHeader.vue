@@ -14,11 +14,11 @@ export default {
 
 
 <template>
-  <header>
-    <div class="container h-100">
-        <div class="row header-content h-100 d-flex justify-content-between">
+  <header class="d-flex align-items-center">
+    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center h-100">
+        <div class="row hours w-100">
 
-            <div class="col header-left d-flex align-items-center">
+            <div class="col d-flex align-items-center">
                 <div class="time-icon me-3">
                     <i class="fa-solid fa-clock"></i>
                 </div>
@@ -27,7 +27,11 @@ export default {
                 </div>
             </div>
 
-            <div class="col-5 header-right d-flex justify-content-between">
+        </div>
+        <div class="row info w-100">
+
+            <div class="col d-flex">
+    
                 <div class="contacts d-flex align-items-center">
                     <div class="phone mx-2">
                         <i class="fa-solid fa-phone"></i>
@@ -56,6 +60,10 @@ export default {
         </div>
     </div>
   </header>
+
+
+
+
 </template>
 
 
@@ -63,9 +71,12 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/styles/partials/vars' as *;
     header{
-        height: 50px;
+        min-height: 50px;
         background-color: $Ebony;
         color: $Nurse;
+        // .info{
+        //     margin-left: 10px;
+        // }
         .contacts{
             width: 70%;
         }
