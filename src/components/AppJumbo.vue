@@ -27,18 +27,16 @@ export default {
 <template>
   <div class="jumbotron">
     <div class="inner">
-        <div class="container p-3">
-            <div class="row d-flex justify-content-between align-items-center jumbo-top">
-                <div class="col-3">
+        <div class="container x-container p-3">
+            <div class="row row-cols-1 d-flex justify-content-between align-items-center jumbo-top">
+                <div class="col d-lg-flex justify-content-between">
 
-                    <div class="logo debug">
+                    <div class="logo text-center text-lg-start">
                         Logo
                     </div>
 
-                </div>
-                <div class="col d-flex justify-content-between">
 
-                    <div class="jumbo-options d-flex align-items-center me-2">
+                    <div class="jumbo-options d-flex align-items-center">
                         <nav class="d-flex align-items-center">
                             <ul class="d-flex">
                                 <li
@@ -51,21 +49,27 @@ export default {
                                 :href="item.href">{{item.text}}</a></li>
                             </ul>
                         </nav>
+
+
+                        <div class="user d-flex align-items-center p-2 mx-3">
+                            <a href="#"><i class="fa-regular fa-user"></i></a>
+                        </div>
+
+
+                        <FullBtn
+                        btnText="get in touch"
+                        />
                     </div>
 
-                    <div class="user d-flex align-items-center p-2 me-4">
-                        <a href="#"><i class="fa-regular fa-user"></i></a>
-                    </div>
 
-                    <FullBtn
-                    btnText="get in touch"
-                    />
+
 
                 </div>
+               
             </div>
-            <div class="row jumbo-bottom d-flex align-items-center">
+            <div class="row row-cols-1 row-cols-xl-3 jumbo-bottom mt-5 d-flex align-items-center">
 
-                <div class="jumbo-content py-3">
+                <div class="jumbo-content col py-3">
                     <h3>
                         {{store.jumboText.smallTitle}}
                     </h3>
@@ -101,13 +105,17 @@ export default {
         min-height: 860px;
         background-image: url('../assets/img/bg-4.jpg');
         color: $White;
+        .x-container{
+            min-height: 860px;
+        }
         .inner{
             background-color: rgba(0, 0, 0, 0.356);
         }
+        
         .jumbo-top{
             min-height: 100px;
             nav{
-                margin-left: 150px;
+                // margin-left: 150px;
             }
             ul{
                 list-style: none;
@@ -135,10 +143,10 @@ export default {
         }
         .jumbo-bottom{
 
-            height: 760px; //da togliere
+            // height: 760px; //da togliere
             .jumbo-content{
-                width: 50%;
-                height: 70%;
+                // width: 50%;
+                // height: 70%;
                 h3{
                     text-transform: uppercase;
                     color: $Eim;

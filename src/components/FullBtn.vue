@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="btn x-btn px-3 py-2 mt-3">
+  <div class="btn x-btn px-3 py-2">
     <span>
       {{btnText}}
     </span>
