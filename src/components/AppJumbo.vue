@@ -173,8 +173,24 @@ export default {
                 }
                 h2{
                     text-transform: capitalize;
-                    font-weight: 600;
+                    font-weight: 900;
                     font-size: 4.5rem;
+                    position: relative;
+                    z-index: 1;
+                    &::after{
+                        content: '';
+                        content-visibility: hidden;
+                        width: 100px;
+                        height: 100px;
+                        background-color: rgba($color: $Lagoon, $alpha: .5);
+                        position: absolute;
+                        width: 100%;
+                        height: 20%;
+                        left: 0;
+                        bottom: 0;
+                        border-radius: 5px;
+                        z-index: -1;
+                    }
                 }
                 p{
                     color: $Silver;
