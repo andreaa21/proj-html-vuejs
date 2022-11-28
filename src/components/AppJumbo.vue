@@ -31,8 +31,17 @@ export default {
             <div class="row row-cols-1 d-flex justify-content-between align-items-center jumbo-top">
                 <div class="col d-lg-flex justify-content-between">
 
-                    <div class="logo text-center text-lg-start">
-                        Logo
+                    <div class="logo-container mb-2 d-flex px-3 py-1 justify-content-center text-lg-start">
+                        <div class="half-bg py-2 ps-4">
+                            <span class="logo color">
+                                nex
+                            </span>
+                        </div>
+                        <div class="half-nobg py-2 pe-4">
+                            <span class="logo">
+                                gen
+                            </span>
+                        </div>
                     </div>
 
 
@@ -114,8 +123,17 @@ export default {
         
         .jumbo-top{
             min-height: 100px;
-            nav{
-                // margin-left: 150px;
+            .half-bg{
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                color: $Fountain;
+                background-color: rgba($color: $Lagoon, $alpha: .2);
+            }
+            .logo{
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                font-weight: 900;
+                letter-spacing: .4rem;
             }
             ul{
                 list-style: none;
