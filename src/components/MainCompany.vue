@@ -30,7 +30,7 @@ export default {
         </div>
         <div class="container h-100 d-flex flex-column justify-content-center p-5">
 
-            <div class="row w-50">
+            <div class="row detail w-50">
                 <TextArea
                 bigTitle="the company"
                 smallTitle="about the network"
@@ -89,29 +89,21 @@ export default {
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .text-area{
-            h4{
-                color: $Eim;
-                text-transform: uppercase;
-                font-size: .9rem;
-                font-weight: 900;
-            }
-            h2{
-                font-size: 3rem;
-                text-transform: capitalize;
-                font-weight: 900;
-                color: $Ebony;
-                margin-top: 1rem;
-            }
-            p{
-                color: $Ebony;
-                font-size: 1.1rem;
+        .detail{
+            position: relative;
+            &::after{
+                content: '';
+                width: 105px;
+                height: 65px;
+                background-color: rgba($color: $Lagoon, $alpha: .3);
+                position: absolute;
+                top: 23px;
+                left: -2px;
             }
         }
 
         .text-color{
             color: $Eim;
-            // rifare i bottoni
         }
 
     }
