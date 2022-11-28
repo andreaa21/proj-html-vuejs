@@ -12,8 +12,8 @@ export default {
 
 
 <template>
-  <div class="features h-100">
-    <div class="x-container d-flex justify-content-between">
+  <div class="features d-flex justify-content-center h-100">
+    <div class="x-container d-flex flex-wrap justify-content-between">
 
         <ProcessItem />
     </div>
@@ -28,13 +28,9 @@ export default {
 
   .features{
     border-top: 5px solid lighten($Gothic, 30%);
-    position: relative;
     .x-container{
       width: 80%;
-      position: absolute;
-      top: -20px;
-      left: 10%;
-
+      margin-top: -20px;
     }
   }
 
