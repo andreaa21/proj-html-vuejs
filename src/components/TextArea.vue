@@ -42,6 +42,7 @@ export default {
         color: $Eim;
         font-weight: 900;
         font-size: .9rem;
+        margin-bottom: 1rem;
     }
     h2{
         text-transform: capitalize;

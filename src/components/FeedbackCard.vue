@@ -23,7 +23,7 @@ export default {
   v-for="(card, index) in store.FeedbackCards"
   :key="index"
   class="feedback-card col m-3 p-4">
-        <img :src="getImagePath(card.img)" alt="">
+        <img :src="getImagePath(card.img)" alt="logo">
         <p class="mt-3">
             {{card.longText}}
         </p>
