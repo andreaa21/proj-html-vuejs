@@ -29,9 +29,9 @@ export default {
     <div class="inner">
         <div class="container x-container p-3">
             <div class="row row-cols-1 d-flex justify-content-between align-items-center jumbo-top">
-                <div class="col d-lg-flex justify-content-between">
+                <div class="col d-flex justify-content-between">
 
-                    <div class="logo-container mb-2 d-flex px-3 py-1 justify-content-center text-lg-start">
+                    <div class="logo-container mb-2 mt-2 d-flex px-3 py-1 justify-content-center text-lg-start">
                         <div class="half-bg py-2 ps-4">
                             <span class="logo color">
                                 nex
@@ -46,7 +46,10 @@ export default {
 
 
                     <div class="jumbo-options d-flex align-items-center">
-                        <nav class="d-flex align-items-center">
+                        <div class="hamb mx-2 d-block d-xl-none">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <nav class="align-items-center d-none d-xl-flex">
                             <ul class="d-flex">
                                 <li
                                 class="mx-3"
