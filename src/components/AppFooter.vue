@@ -35,7 +35,7 @@ export default {
                 smallText="We will respond to your message as soon as possible"
                 />
                 <FooterForm />
-                <div class="btn-area">
+                <div class="btn-area mt-3">
                     <FullBtn
                     btnText="send"
                     />
@@ -85,7 +85,7 @@ export default {
                             </span>
                         </div>
                     </div>
-                    <div class="btn-area pb-5">
+                    <div class="btn-area mt-3 pb-5">
                         <OutlineBtn
                         btnText="view map"
                         />
